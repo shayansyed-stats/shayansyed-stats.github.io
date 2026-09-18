@@ -1,0 +1,293 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Research, teaching, data-analysis, and AI-in-education projects by Shayan Syed, psychology researcher and instructor in Thunder Bay, Ontario.">
+  <title>Research and AI Projects | Shayan Syed</title>
+
+  <style>
+    :root {
+      --ink: #17202a;
+      --muted: #5b6573;
+      --paper: #ffffff;
+      --surface: #f3f6f8;
+      --accent: #0b5f75;
+      --accent-dark: #08495a;
+      --line: #dce4e8;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      color: var(--ink);
+      background: var(--surface);
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.7;
+    }
+
+    a {
+      color: var(--accent);
+    }
+
+    a:hover {
+      color: var(--accent-dark);
+    }
+
+    .container {
+      width: min(940px, calc(100% - 40px));
+      margin: 0 auto;
+    }
+
+    header {
+      background: var(--paper);
+      border-bottom: 1px solid var(--line);
+    }
+
+    .topbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 20px;
+      padding: 18px 0;
+    }
+
+    .brand {
+      color: var(--ink);
+      font-size: 1.15rem;
+      font-weight: 700;
+      letter-spacing: 0.01em;
+      text-decoration: none;
+    }
+
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+    }
+
+    nav a {
+      color: var(--muted);
+      font-size: 0.95rem;
+      text-decoration: none;
+    }
+
+    nav a:hover {
+      color: var(--accent);
+      text-decoration: underline;
+    }
+
+    main {
+      padding: 52px 0 60px;
+    }
+
+    .page {
+      padding: 44px;
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+    }
+
+    .eyebrow {
+      margin: 0 0 10px;
+      color: var(--accent);
+      font-size: 0.9rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    h1, h2, h3 {
+      line-height: 1.2;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(2.2rem, 6vw, 3.7rem);
+    }
+
+    h2 {
+      margin-top: 42px;
+      font-size: 1.45rem;
+    }
+
+    h3 {
+      margin: 0 0 10px;
+      font-size: 1.15rem;
+    }
+
+    .lead {
+      max-width: 790px;
+      margin-top: 22px;
+      color: var(--muted);
+      font-size: 1.12rem;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 18px;
+      margin-top: 22px;
+    }
+
+    .card {
+      padding: 22px;
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      background: #fbfcfd;
+    }
+
+    .card p {
+      margin: 0;
+      color: var(--muted);
+    }
+
+    .label {
+      display: inline-block;
+      margin-bottom: 11px;
+      padding: 4px 9px;
+      border-radius: 999px;
+      background: #e5f1f4;
+      color: var(--accent-dark);
+      font-size: 0.78rem;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+
+    .note {
+      margin-top: 34px;
+      padding: 18px 20px;
+      border-left: 4px solid var(--accent);
+      background: #edf5f7;
+    }
+
+    footer {
+      padding: 26px 0;
+      color: var(--muted);
+      font-size: 0.9rem;
+      text-align: center;
+    }
+
+    @media (max-width: 650px) {
+      .topbar {
+        align-items: flex-start;
+        flex-direction: column;
+      }
+
+      .page {
+        padding: 28px;
+      }
+
+      .grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="container topbar">
+      <a class="brand" href="index.html">Shayan Syed</a>
+      <nav aria-label="Primary navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="research.html">Research</a>
+        <a href="teaching.html">Teaching</a>
+        <a href="projects.html">Projects</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <article class="page">
+      <p class="eyebrow">Public work and resources</p>
+      <h1>Research, Teaching, and AI Projects</h1>
+
+      <p class="lead">
+        Shayan Syed develops research, teaching, and technology projects related to psychology, quantitative methods, student learning, and responsible artificial intelligence. This page provides an overview of current and developing work, with public resources added when they are suitable to share.
+      </p>
+
+      <h2>Current areas of project work</h2>
+
+      <div class="grid">
+        <section class="card">
+          <span class="label">Research methods</span>
+          <h3>Reproducible psychology research workflows</h3>
+          <p>
+            Practical approaches to organizing survey data, documenting analysis decisions, evaluating data quality, and supporting transparent, reproducible research in psychology.
+          </p>
+        </section>
+
+        <section class="card">
+          <span class="label">Data analysis</span>
+          <h3>Survey-data cleaning and screening</h3>
+          <p>
+            Resources and workflows for preparing survey datasets, checking variable coding, identifying missing or implausible values, reviewing response quality, and documenting decisions before analysis.
+          </p>
+        </section>
+
+        <section class="card">
+          <span class="label">AI in education</span>
+          <h3>AI literacy and responsible use</h3>
+          <p>
+            Educational material on using artificial intelligence critically and responsibly in learning, writing, research, and information evaluation, with attention to academic integrity and privacy.
+          </p>
+        </section>
+
+        <section class="card">
+          <span class="label">Local tools</span>
+          <h3>Privacy-conscious research technology</h3>
+          <p>
+            Exploration of local and open-source language-model tools for research and education, including document question-answering and workflows that limit unnecessary sharing of sensitive information.
+          </p>
+        </section>
+
+        <section class="card">
+          <span class="label">Teaching</span>
+          <h3>Student-facing psychology resources</h3>
+          <p>
+            Clear, practical guides intended to help students understand research methods, evaluate evidence, manage academic work, and develop stronger research literacy.
+          </p>
+        </section>
+
+        <section class="card">
+          <span class="label">Research communication</span>
+          <h3>Public-facing research explanations</h3>
+          <p>
+            Plain-language explanations of work in moral psychology, political psychology, social affiliation, and the relationship between psychological research and everyday social decisions.
+          </p>
+        </section>
+      </div>
+
+      <h2>How these projects connect</h2>
+
+      <p>
+        These projects reflect a shared interest in making psychological research more understandable, rigorous, and practically useful. They connect Shayan's work in <a href="research.html">moral and political psychology research</a> with his <a href="teaching.html">psychology teaching and student resources</a>.
+      </p>
+
+      <p>
+        New public resources will be added as they are completed or prepared for sharing. Materials are designed to be accurate, useful, and appropriate for public access rather than duplicating restricted course content or unpublished research materials.
+      </p>
+
+      <aside class="note">
+        Visit the <a href="research.html">Research page</a> for Shayan Syed's academic interests, the <a href="teaching.html">Teaching page</a> for student-learning topics, or the <a href="about.html">About page</a> for professional background.
+      </aside>
+    </article>
+  </main>
+
+  <footer>
+    <div class="container">
+      © 2026 Shayan Syed
+    </div>
+  </footer>
+</body>
+</html>
